@@ -1,0 +1,172 @@
+{
+   "usuarios": [
+      {
+         "id": 1,
+         "status": "gerencia",
+         "login": "admin",
+         "senha": "admin"
+      },
+      {
+         "id": 2,
+         "status": "Professor",
+         "login": "C",
+         "senha": 12345
+      },
+      {
+         "id": 3,
+         "status": "aluno",
+         "login": "Ana_Ferreira2",
+         "senha": 12345
+      }
+   ],
+   "Turma": [
+      {
+         "id_Turma": "2A-Em2025",
+         "Nome_Turma": "2ºA Ensino Médio Manhã",
+         "Id_Materia": [
+            "PY2AM",
+            "ES2AM",
+            "C++2AM"
+         ],
+         "Coordenador": "Claudio Alonso de Moraes",
+         "Periodo": "Matutino",
+         "Materias": [
+            "PYTHON",
+            "ENGENHARIA DE SOFTWARE",
+            "C++"
+         ]
+      }
+   ],
+   "Notas": [
+      {
+         "id_aluno": 3,
+         "id_Turma": "2A-Em2025",
+         "Notas_Materias": [
+            {
+               "Nota": 8,
+               "Id_Materia": "PY2AM"
+            },
+            {
+               "Nota": 7.5,
+               "Id_Materia": "ES2AM"
+            },
+            {
+               "Nota": 9,
+               "Id_Materia": "C+2AM"
+            }
+         ]
+      }
+   ],
+   "Faltas": [
+      {
+         "id_aluno": 3,
+         "id_Turma": "2A-Em2025",
+         "Faltas_Materias": [
+            {
+               "Faltas": 3,
+               "Id_Materia": "PY2AM"
+            },
+            {
+               "Faltas": 2,
+               "Id_Materia": "ES2AM"
+            },
+            {
+               "Faltas": 2,
+               "Id_Materia": "C+2AM"
+            }
+         ]
+      }
+   ],
+   "Informacoes_aluno": [
+      {
+         "id_aluno": 3,
+         "id_Turma": "2A-Em2025",
+         "Nome": "Ana Ferreira Dominguez",
+         "Idade": 16,
+         "Nome_mae": "Gabriela Ferreira Alvarenga Dominguez",
+         "Nome_pai": "Pedro Dominguez Carvalho",
+         "Cpf": 56723948012,
+         "Telefone_mae": 1197823485,
+         "Telefone_pai": 1190856234
+      }
+   ],
+   "Informacoes_Prof": [
+      {
+         "id_Prof": 2,
+         "Nome": "Claudio Alonso de Moraes",
+         "Materias": [
+            "PYTHON",
+            "Geopolitica"
+         ],
+         "Turmas": [
+            {
+               "id_Turma": "2A-Em2025",
+               "Id_Materia": "PY2AM",
+               "Disciplina": "PYTHON"
+            }
+         ],
+         "Telefone": 1193457978
+      }
+   ],
+   "Atividades": [
+      {
+         "id_Turma": "2A-Em2025",
+         "id_Prof": 2,
+         "id_Atv": 1,
+         "Id_Materia": "PY2AM",
+         "Perguntas": [
+            {
+               "Questoes": "",
+               "Alternativas": [],
+               "respCorreta": "A"
+            }
+         ],
+         "Respostas": [
+            {
+               "id_Atv": 1,
+               "id_Turma": "2A-Em2025",
+               "id_aluno": 2,
+               "Resultado": "Acertou",
+               "Resp": [
+                  {
+                     "Alternativa": "",
+                     "Resposta_Aluno": ""
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id_Turma": "2A-Em2025",
+         "id_Prof": 2,
+         "id_Atv": 2,
+         "Id_Materia": "PY2AM",
+         "Perguntas": [
+            {
+               "Questoes": "Qual a cor do Céu",
+               "Alternativas": [
+                  "Vermelho",
+                  "Azul",
+                  "Verde",
+                  "Amarelo",
+                  "Laranja"
+               ],
+               "respCorreta": "B"
+            }
+         ],
+         "Respostas": [
+            {
+               "id_Atv": 2,
+               "id_Turma": "2A-Em2025",
+               "id_aluno": "",
+               "Resp": [
+                  {
+                     "Alternativa": "",
+                     "Resposta_Aluno": ""
+                  }
+               ]
+            } 
+         ]
+      }
+   ]
+}
